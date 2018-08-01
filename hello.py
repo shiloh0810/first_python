@@ -1,6 +1,6 @@
 from random import randint
 number = randint(1000, 9999)
-print number
+# print number
 guess = str(raw_input("What's your guess?"))
 number_list = str(number)
 
@@ -23,3 +23,6 @@ while i < len(guess):
     i += 1
 
 print str(a) + 'A' + str(b) + 'B'
+
+if b == 4:
+    print "Congrats!"
